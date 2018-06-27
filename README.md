@@ -11,7 +11,7 @@ file in each directory. When performing this step, be sure to set the following:
 
 Lab 1. Out Of The Box
 
-  - Create IDL, then generate code
+  - Create IDL, then generate code, build and run
   - Decrease the DataWriter wait time from 4s to 2s
   - Give the sample members some values, just so we aren't writing empty data
   - In the QoS XML, update publication_name and subscription_name with meaningful values (student names, etc.)
