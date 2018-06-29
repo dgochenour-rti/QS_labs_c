@@ -59,8 +59,6 @@ Lab 6. Loading a user-defined XML QoS profile
   - remove is_default_qos="true" from MyProfile
   - change DW and DR back to SHARED_OWNERSHIP_QOS
   - change publisher and subscriber code to use custom qosProvider
-    - NOTE: in the publisher, you need to add
-        #include <dds/core/ddscore.hpp>
 
 Lab 7. Listeners and Waitsets
 
