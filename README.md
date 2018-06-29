@@ -47,8 +47,10 @@ Lab 5. Ownership and fail rollover.
   - Start running from lowest strength to highest strength.
   - Kill apps from Highest to lowest strength.
 
-  (If everyone is not connected to the same network, demonstrate Ownership using Shapes Demo on a
+  NOTE 1: (If everyone is not connected to the same network, demonstrate Ownership using Shapes Demo on a
   single machine)
+
+  NOTE 2: subscribe to the data with Admin Console, demonstrating how to override the ownership settings
 
 Lab 6. Loading a user-defined XML QoS profile
 
