@@ -62,11 +62,8 @@ Lab 6. Loading a user-defined XML QoS profile
 
 Lab 7. Listeners and Waitsets
 
-  - Modify the subscriber code so that the read is done via a listener instead of the default waitset
-  - don't forget to add the private count_ var in the listener class and update main while loop
-    - point out that the message from the listener is printing, but so is the sleep message from the waitset
-    - why isn't the data printing twice?
-    - after talking about this, remove the data_available mask to rerturn the the waitset
+  - Modify the subscriber code so that the read is done via a waitset instead of the default listener
+  - Point out the changes made in the declarations, as well as how the main loop is refactored
   - Note that the waitset is actually a better approach in terms of not blocking the DDS threads
 
 Lab 8. Reliability.
