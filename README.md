@@ -84,6 +84,7 @@ Lab 9. Late Joiner History.
   - Set Reader History to depth 15.
   - Add monitoring library support
     - wait for errors from statically linked libs, discuss, then fix that in the makefile
+    - NOTE: make sure there isn't any whitespace after the "SHAREDLIB=1" as this will cause problems
   - Start Writer then Reader apps one at a time and discuss late joiner results.
 
 Lab 10. Content Filtered topic
